@@ -1,7 +1,11 @@
 from selenium import webdriver
 import time 
 
+<<<<<<< HEAD
 link = "http://suninjuly.github.io/simple_form_find_task.html"
+=======
+link = "http://suninjuly.github.io/find_xpath_form"
+>>>>>>> eca256d (изменил селектор)
 
 try:
     browser = webdriver.Chrome()
@@ -15,7 +19,11 @@ try:
     input3.send_keys("Smolensk")
     input4 = browser.find_element_by_id("country")
     input4.send_keys("Russia")
+<<<<<<< HEAD
     button = browser.find_element_by_css_selector("button.btn")
+=======
+    button = browser.find_element_by_css_selector("[type='submit']")
+>>>>>>> eca256d (изменил селектор)
     button.click()
 
 finally:

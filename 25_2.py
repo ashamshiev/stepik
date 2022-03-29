@@ -2,7 +2,11 @@ from selenium import webdriver
 import math
 import time 
 
+<<<<<<< HEAD
 link = "http://suninjuly.github.io/find_link_text"
+=======
+link = "http://suninjuly.github.io/find_xpath_form"
+>>>>>>> eca256d (изменил селектор)
 
 try: 
     browser = webdriver.Chrome()
